@@ -1,0 +1,420 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "54fc3ad6-32bd-4446-a1f0-d9e178214e04")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PCM_Generic:X-opamp,IEEE"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "${SIM.PARAMS}"
+				(at 6.35 -3.81 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "operational amplifier (opamp); voltage comparator (IEEE triangle)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "type=\"X\" model=\"X-opamp,IEEE\" lib=\"\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "X operational amplifier opamp comparator comp IEEE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "X-opamp,IEEE_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.8674) (xy -5.08 -5.8674) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.8288 1.8288)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8288 1.8288)
+							)
+						)
+					)
+				)
+				(pin power_in non_logic
+					(at 0 7.62 270)
+					(length 4.6736)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9144 0.9144)
+							)
+						)
+					)
+				)
+				(pin power_in non_logic
+					(at 0 -7.62 90)
+					(length 4.6736)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.9144 0.9144)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.8288 1.8288)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Generic:X-opamp,IEEE")
+		(at 158.75 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c79a135-2cab-4c07-846b-c5fb16a5de97")
+		(property "Reference" "U1B"
+			(at 171.45 78.8668 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 171.45 83.9468 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "operational amplifier (opamp); voltage comparator (IEEE triangle)"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"X-opamp,IEEE\" lib=\"\""
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d2e84e19-c8d9-4448-9854-4c6777b3869a")
+		)
+		(pin "4"
+			(uuid "89cccd29-f1e1-44f4-af2e-9fce95cdb992")
+		)
+		(pin "3"
+			(uuid "6c2e2f4f-a28a-407f-b012-2db29525f40a")
+		)
+		(pin "1"
+			(uuid "a87f6163-2fde-4d25-8c60-621048da411f")
+		)
+		(pin "2"
+			(uuid "2bc57f68-0ed3-48a7-ba9c-fceb48902670")
+		)
+		(instances
+			(project ""
+				(path "/54fc3ad6-32bd-4446-a1f0-d9e178214e04"
+					(reference "U1B")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Generic:X-opamp,IEEE")
+		(at 86.36 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0309181-bc7d-4cfc-9c7f-1bd85a3a291c")
+		(property "Reference" "U1A"
+			(at 99.06 78.8668 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 99.06 83.9468 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "operational amplifier (opamp); voltage comparator (IEEE triangle)"
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5"
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"X-opamp,IEEE\" lib=\"\""
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "11424f1f-1c9f-400e-a143-1383c9bcc4f8")
+		)
+		(pin "1"
+			(uuid "15b9d3f4-2091-4a93-9e63-2a6f327defeb")
+		)
+		(pin "4"
+			(uuid "23f26ab1-b188-4464-9c8c-76497392aeed")
+		)
+		(pin "2"
+			(uuid "38f5ce73-fc06-405a-8874-49d0b8d834e6")
+		)
+		(pin "5"
+			(uuid "5d26a8fd-9ae5-4911-a1f2-a078da7eaada")
+		)
+		(instances
+			(project ""
+				(path "/54fc3ad6-32bd-4446-a1f0-d9e178214e04"
+					(reference "U1A")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
