@@ -10,6 +10,6 @@ fabrication techniques as a proof of concept for analog computing. This approach
 cost, flexible, and rapidly prototyped alternative to standard PCBs, as there is no lead time for PCB
 ordering.
 
-I gained inspiration from reading the Art of Electronics, Second Edition (Horowitz and Hill) chapter on
+I gained inspiration from reading the Art of Electronics Second Edition (Horowitz and Hill) chapter on
 op-amp designs for calculus functions (chapter 4), and further research into devices such as the Comdyna
 GP-6.
