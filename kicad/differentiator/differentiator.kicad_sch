@@ -1230,7 +1230,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1nF"
 			(at 158.75 99.06 90)
 			(effects
 				(font
@@ -1410,7 +1410,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1nF"
 			(at 77.47 96.52 90)
 			(effects
 				(font
