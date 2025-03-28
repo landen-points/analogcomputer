@@ -1,0 +1,4 @@
+Update paper circuits from unified CAD design
+±5V out from ±12V (±3.3V?)
+Test all circuits
+Panel design and drilling
