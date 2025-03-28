@@ -17,7 +17,7 @@ GP-6.
 The circuits used in the analog computer are separated by module, so a build can incorporate how ever many of each are desired.
 
 To build a computer of your own:
-  1. Print the paper circuit modules located in ./papercircuits to US letter size (8.5x11in) paper
+  1. Print the paper circuit modules located in ./papercircuits/pdf to US letter size (8.5x11in) paper
   2. Cut the modules accordingly
   3. Poke holes through lead locations and place components in. Suggested component values are printed on the paper circuit PDFs
   4. Solder them together, using legs or jumpers. Be creative with it
