@@ -1,4 +1,4 @@
-# analogcomputer
+# analog computer
 This project involves designing and building a simple analog computer capable of solving calculus-based
 operations such as integration, differentiation, and summation using op-amp-based circuits to a proof-of-
 concept level accuracy. The core components will include TL082 dual op-amps, a variety of passive
