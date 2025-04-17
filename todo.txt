@@ -1,5 +1,6 @@
 ±5V out from ±12V (±3.3V?)
-Breadboard test int, d/dx, inverter circuits
+Breadboard test d/dx circuit
 Solder all circuits
+  sum, diff, int, d/dx
 Test all circuits
 Panel design and drilling
