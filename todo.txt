@@ -4,3 +4,4 @@ Solder all circuits
   sum, diff, int, d/dx
 Test all circuits
 Panel design and drilling
+Slideshow presentation
